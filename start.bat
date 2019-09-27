@@ -1,1 +1,1 @@
-java -Xmx4096M -Xms4096M -jar forge-1.14.4-28.1.1.jar nogui
+java -Xmx9000M -Xms9000M -jar forge-1.14.4-28.1.1.jar nogui

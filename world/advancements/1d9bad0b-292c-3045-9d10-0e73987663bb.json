@@ -143,6 +143,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2019-09-27 22:58:18 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blast_furnace": {
     "criteria": {
       "has_smooth_stone": "2019-09-15 16:41:33 +0300"
@@ -344,6 +350,12 @@
   "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
       "has_sand": "2019-09-14 23:52:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_the_recipe": "2019-09-27 22:26:57 +0300"
     },
     "done": true
   },
@@ -586,6 +598,7 @@
       "minecraft:pillager": "2019-09-15 00:41:30 +0300",
       "minecraft:blaze": "2019-09-16 02:55:39 +0300",
       "minecraft:skeleton": "2019-09-14 23:48:37 +0300",
+      "minecraft:zombie_pigman": "2019-09-27 23:04:28 +0300",
       "minecraft:ravager": "2019-09-17 03:46:05 +0300",
       "minecraft:ghast": "2019-09-17 02:16:51 +0300",
       "minecraft:vindicator": "2019-09-15 00:41:18 +0300",
@@ -594,10 +607,17 @@
       "minecraft:phantom": "2019-09-15 18:16:51 +0300",
       "minecraft:witch": "2019-09-16 23:41:52 +0300",
       "minecraft:wither_skeleton": "2019-09-17 02:18:17 +0300",
+      "minecraft:enderman": "2019-09-27 23:33:28 +0300",
       "minecraft:zombie": "2019-09-14 23:48:43 +0300",
       "minecraft:drowned": "2019-09-15 17:17:59 +0300"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2019-09-27 23:23:24 +0300"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
@@ -656,6 +676,12 @@
   "minecraft:recipes/decorations/pink_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-09-15 22:19:32 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2019-09-27 22:58:18 +0300"
     },
     "done": true
   },
@@ -1103,6 +1129,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2019-09-27 23:35:29 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2019-09-14 23:11:22 +0300"
@@ -1151,9 +1183,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2019-09-27 23:12:32 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2019-09-14 23:15:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2019-09-27 23:23:24 +0300"
     },
     "done": true
   },
@@ -1192,6 +1236,12 @@
   "minecraft:recipes/misc/book": {
     "criteria": {
       "has_paper": "2019-09-15 21:33:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2019-09-27 22:36:43 +0300"
     },
     "done": true
   },
@@ -1357,6 +1407,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2019-09-27 23:35:29 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/diamond": {
     "criteria": {
       "has_at_least_9_diamond": "2019-09-16 23:58:32 +0300"
@@ -1435,6 +1491,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2019-09-27 23:23:24 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
     "criteria": {
       "has_white_flower": "2019-09-17 03:09:31 +0300"
@@ -1498,6 +1560,12 @@
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2019-09-14 23:14:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2019-09-27 23:35:29 +0300"
     },
     "done": true
   },
@@ -1692,6 +1760,7 @@
       "bread": "2019-09-14 23:16:39 +0300",
       "cookie": "2019-09-15 17:52:43 +0300",
       "dried_kelp": "2019-09-14 23:25:54 +0300",
+      "melon_slice": "2019-09-27 23:13:23 +0300",
       "cooked_chicken": "2019-09-15 17:01:39 +0300",
       "cooked_salmon": "2019-09-15 00:35:58 +0300",
       "carrot": "2019-09-14 23:29:40 +0300"
@@ -2198,6 +2267,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/slime_block": {
+    "criteria": {
+      "has_at_least_9_slime_ball": "2019-09-27 23:12:32 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2019-09-15 22:19:32 +0300"
@@ -2510,6 +2585,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2019-09-27 23:12:32 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2019-09-14 23:38:47 +0300"
@@ -2543,6 +2624,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2019-09-14 23:10:20 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_at_least_9_slime_ball": "2019-09-27 23:12:32 +0300"
     },
     "done": true
   },
@@ -2855,6 +2942,12 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2019-09-15 00:27:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2019-09-27 22:58:18 +0300"
     },
     "done": true
   },

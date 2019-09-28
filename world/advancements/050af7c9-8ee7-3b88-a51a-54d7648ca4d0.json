@@ -494,12 +494,15 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2019-09-18 22:10:17 +0300",
+      "minecraft:pillager": "2019-09-27 23:04:05 +0300",
       "minecraft:skeleton": "2019-09-14 23:30:26 +0300",
       "minecraft:guardian": "2019-09-18 23:03:50 +0300",
       "minecraft:magma_cube": "2019-09-18 22:12:29 +0300",
       "minecraft:spider": "2019-09-15 16:51:44 +0300",
       "minecraft:creeper": "2019-09-15 17:00:42 +0300",
+      "minecraft:slime": "2019-09-27 22:46:31 +0300",
       "minecraft:phantom": "2019-09-15 18:16:29 +0300",
+      "minecraft:witch": "2019-09-27 22:41:49 +0300",
       "minecraft:wither_skeleton": "2019-09-18 22:11:24 +0300",
       "minecraft:zombie": "2019-09-14 23:05:36 +0300",
       "minecraft:drowned": "2019-09-14 23:20:43 +0300"
@@ -587,6 +590,12 @@
   "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
       "has_mutton": "2019-09-14 23:16:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2019-09-27 23:04:18 +0300"
     },
     "done": true
   },
@@ -689,6 +698,12 @@
   "minecraft:recipes/decorations/magenta_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_magenta_dye": "2019-09-15 16:47:52 +0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2019-09-27 22:56:24 +0300"
     },
     "done": true
   },
@@ -1064,6 +1079,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2019-09-27 22:47:16 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2019-09-14 23:09:34 +0300"
@@ -1087,10 +1108,13 @@
       "minecraft:birch_forest": "2019-09-14 23:47:55 +0300",
       "minecraft:deep_lukewarm_ocean": "2019-09-15 16:52:23 +0300",
       "minecraft:beach": "2019-09-14 23:18:41 +0300",
+      "minecraft:dark_forest": "2019-09-27 22:31:35 +0300",
       "minecraft:river": "2019-09-14 23:05:09 +0300",
       "minecraft:lukewarm_ocean": "2019-09-15 16:52:30 +0300",
+      "minecraft:wooded_mountains": "2019-09-27 22:59:43 +0300",
       "minecraft:wooded_hills": "2019-09-14 23:04:26 +0300",
       "minecraft:stone_shore": "2019-09-15 16:56:07 +0300",
+      "minecraft:swamp": "2019-09-27 22:37:04 +0300",
       "minecraft:plains": "2019-09-14 23:03:39 +0300"
     },
     "done": false
@@ -1918,6 +1942,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2019-09-27 22:34:34 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
     "criteria": {
       "has_salmon": "2019-09-15 19:16:14 +0300"
@@ -2041,6 +2071,12 @@
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2019-09-14 23:42:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/slime_block": {
+    "criteria": {
+      "has_at_least_9_slime_ball": "2019-09-27 22:47:16 +0300"
     },
     "done": true
   },
@@ -2284,6 +2320,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2019-09-27 22:47:16 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2019-09-14 23:09:05 +0300"
@@ -2311,6 +2353,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2019-09-14 23:09:08 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_at_least_9_slime_ball": "2019-09-27 22:47:16 +0300"
     },
     "done": true
   },
@@ -2541,6 +2589,12 @@
       "has_gold_ingot": "2019-09-15 16:16:30 +0300"
     },
     "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "textures/entity/cat/all_black.png": "2019-09-27 22:56:24 +0300"
+    },
+    "done": false
   },
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
